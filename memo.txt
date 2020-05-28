@@ -1,0 +1,23 @@
+■Vue-routerを使って、SPAをシンプルにはじめてみる
+https://qiita.com/567000/items/d6a7c694a370dc92e774
+
+■vue-cliの導入から新規でVue.jsのプロジェクト作成とビルド方法まとめ
+https://designsupply-web.com/knowledgeside/4632/
+
+■API Gateway マッピングテンプレートとアクセスのログ記録の変数リファレンス
+https://docs.aws.amazon.com/ja_jp/apigateway/latest/developerguide/api-gateway-mapping-template-reference.html
+
+■vue-cliでaxiosを使用する(設定から使用方法まで)
+https://qiita.com/right1121/items/092ac7ff747e1c47b2b1
+
+#参考コマンド
+
+#サーバ起動
+npm run dev
+
+#ビルド
+npm run build
+
+#デプロイ
+aws s3 cp C:\keijiban\my-project\dist s3://keijiban --recursive
+
